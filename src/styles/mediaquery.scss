@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 1475px) {
+  .home3 {
+    height: 130vh;
+    > div {
+      height: 120vh;
+    }
+  }
+}
+@media screen and (max-width: 1190px) {
+  .home4 {
+    align-items: center;
+    > div {
+      border-radius: 0%;
+      width: 100%;
+      height: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .home3 {
+    height: 130vh;
+    > div {
+      height: 120vh;
+    }
+  }
+}
+@media screen and (max-width: 955px) {
+  .home3 {
+    height: 140vh;
+    > div {
+      height: 140vh;
+    }
+  }
+}
+@media screen and (max-width: 865px) {
+  .home3 {
+    height: 150vh;
+    > div {
+      height: 150vh;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .home3 {
+    height: 150vh;
+    > div {
+      height: 160vh;
+    }
+  }
+
+  .contact > main {
+    height: 100vh;
+    width: 100%;
+    border-radius: 0%;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .home3 {
+    height: 120vh;
+    > div {
+      height: 130vh;
+
+      > p {
+        padding: 5rem 2rem;
+        font-size: 0.9rem;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    > h1 {
+      display: none;
+    }
+    > main {
+      width: 100%;
+      justify-content: center;
+      a {
+        margin: 0.5rem;
+      }
+    }
+  }
+
+  .home > main {
+    align-items: center;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .home2 {
+    height: 120vh;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    > div {
+      width: 100%;
+    }
+  }
+
+  .home3 {
+    height: 120vh;
+    > div {
+      text-align: center;
+      width: 100%;
+      border-radius: 0;
+      > p {
+        padding: 5rem 2rem;
+        font-size: 0.9rem;
+        line-height: 150%;
+      }
+    }
+  }
+
+  .home4 {
+    align-items: center;
+    > div {
+      border-radius: 0%;
+      width: 100%;
+      height: unset;
+    }
+  }
+
+  .contact > main {
+    padding: 1rem;
+    h1 {
+      margin: 1rem;
+    }
+    > form {
+      margin: 0%;
+      > div {
+        width: 100%;
+      }
+    }
+  }
+
+  footer {
+    height: 50vh;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+    > div {
+      align-items: center;
+    }
+  }
+}
